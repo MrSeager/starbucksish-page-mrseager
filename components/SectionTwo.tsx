@@ -5,7 +5,6 @@ import SectionTwoItem from "./SectionTwoItem";
 export default function SectionTwo() {
     return(
         <div className="flex flex-col items-center text-center gap-5
-                        text-[#1e3932]
                         py-15">
             <h2 className="text-[30px] font-semibold">Getting started is easy</h2>
             <p>Earn Stars and get rewarded in a few easy steps.</p>
