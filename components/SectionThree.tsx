@@ -37,7 +37,7 @@ export default function SectionThree() {
                     numb={400}
                 />
             </div>
-            <div className="h-[20rem] md:h-[17rem] flex items-center justify-center bg-[#d4e9e2] w-full">
+            <div className="h-[22rem] md:h-[17rem] flex items-center justify-center bg-[#d4e9e2] w-full">
                 <SectionThreeItem 
                     option={option} 
                     numb={25}

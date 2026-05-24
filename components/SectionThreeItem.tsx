@@ -19,7 +19,7 @@ export default function SectionThreeItem({ option, numb, text }: SectionThreeIte
                 height={243}
                 className="mx-auto"
             />
-            <div className="h-[75px] md:col-span-2 flex items-center justify-center">
+            <div className="mx-5 h-[75px] md:col-span-2 flex items-center justify-center">
                 <p>{text}</p>
             </div>
         </div>
