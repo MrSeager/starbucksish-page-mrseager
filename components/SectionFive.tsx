@@ -3,7 +3,6 @@ import Link from "next/link";
 import SectionFiveItem from "./SectionFiveItem";
 //Icons
 import { IoStarSharp } from "react-icons/io5";
-import { GoLinkExternal } from "react-icons/go";
 
 export default function SectionFive() {
     return(
@@ -15,7 +14,7 @@ export default function SectionFive() {
             </p>
             <div className="flex flex-col gap-3 md:grid grid-cols-3 w-full py-15 border-b border-b-black/25">
                 <div className="flex flex-col">
-                    <h5 className="flex text-[30px] font-semibold">1<IoStarSharp size={20} className="me-2 mt-3.5" /> per dollar </h5>
+                    <h5 className="flex text-[25px] lg:text-[30px] font-semibold">1<IoStarSharp size={20} className="me-2 mt-2.5 lg:mt-3.5" /> per dollar </h5>
                     <p>Pay as you go</p>
                 </div>
                 <SectionFiveItem 
@@ -40,9 +39,9 @@ export default function SectionFive() {
                     classN={'h-full w-auto'}
                 />
             </div>
-            <div className="grid grid-cols-3 w-full py-15 border-b border-b-black/25">
+            <div className="flex flex-col gap-3 md:grid grid-cols-3 w-full py-15 border-b border-b-black/25">
                 <div className="flex flex-col">
-                    <h5 className="flex text-[30px] font-semibold">2<IoStarSharp size={20} className="me-2 mt-3.5" /> per dollar </h5>
+                    <h5 className="flex text-[25px] lg:text-[30px] font-semibold">2<IoStarSharp size={20} className="me-2 mt-2.5 lg:mt-3.5" /> per dollar </h5>
                     <p>Add funds in the app</p>
                 </div>
                 <SectionFiveItem 
@@ -68,9 +67,9 @@ export default function SectionFive() {
                     classN={'h-auto w-full'}
                 />
             </div>
-            <div className="grid grid-cols-3 w-full pt-15">
+            <div className="flex flex-col gap-3 md:grid grid-cols-3 w-full pt-15">
                 <div className="flex flex-col">
-                    <h5 className="flex text-[30px] font-semibold">Up to 3<IoStarSharp size={20} className="me-2 mt-3.5" /> per dollar </h5>
+                    <h5 className="flex text-[25px] lg:text-[30px] font-semibold">Up to 3<IoStarSharp size={20} className="me-2 mt-2.5 lg:mt-3.5" /> per dollar </h5>
                     <p>
                         With Starbucks Rewards
                         Visa Card
@@ -78,7 +77,7 @@ export default function SectionFive() {
                 </div>
                 <SectionFiveItem 
                     img="5.png"
-                    textH="earn Stars even faster"
+                    textH="Earn Stars even faster"
                     textP={<p>
                         Earn Stars on all purchases you
                         make with our <Link href={'/'} className="text-[#008248] ms-1 duration-300 hover:text-[#d4e9e2]"><span className="underline">credit card</span> &#x0010;</Link> in and
