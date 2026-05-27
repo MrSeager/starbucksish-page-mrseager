@@ -12,8 +12,8 @@ export default function HeaderNavbar() {
     const [open, setOpen] = useState<boolean>(false);
 
     return(
-        <header className="w-full max-w-[120rem] relative shadow-lg ">
-            <nav className="w-full px-5 lg:px-10 flex items-center justify-between">
+        <header className="sticky top-0 md:relative z-100 w-full max-w-[120rem] relative shadow-lg ">
+            <nav className="bg-white w-full px-5 lg:px-10 flex items-center justify-between">
                 <div className="flex gap-5 items-center justify-start items-stretch">
                     <Image 
                         src={'/images/logo.jpeg'}
